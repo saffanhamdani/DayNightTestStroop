@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+      android:background="@drawable/day_back">
+       <TextView
+        android:id="@+id/welcomeNoteTextV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:paddingLeft="10dp"
+        android:text="@string/enterDetails"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/abc_dropdownitem_icon_width" />
+
+ <TextView
+        android:id="@+id/enterFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeNoteTextV"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/startButton"
+        android:text="@string/firstName"
+        android:textAppearance="?android:attr/textAppearance" /> 
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enterFirstName"
+        android:layout_below="@+id/enterFirstName"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text" />
+    
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/enterFirstName"
+        android:layout_below="@+id/enterLastName"
+        android:layout_marginTop="8dp"
+        android:ems="10" 
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/enterAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enterFirstName"
+        android:layout_below="@+id/lastName"
+        android:layout_marginTop="16dp"
+        android:text="@string/age" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enterFirstName"
+        android:layout_below="@+id/enterAge"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/enterLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enterFirstName"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="16dp"
+        android:text="@string/lastName" />
+    
+
+</RelativeLayout>

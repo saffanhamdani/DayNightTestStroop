@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_vertical"
+    android:orientation="vertical" 
+    android:background="@drawable/day_night_home" >
+
+    <TextView
+        android:id="@+id/nightCardTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:text="@string/welcome_note"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#dd00dd"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/trainingScreen3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center_vertical"
+        android:selectAllOnFocus="false"
+        android:text="@string/tap"
+        android:textStyle="bold" />
+
+</LinearLayout>

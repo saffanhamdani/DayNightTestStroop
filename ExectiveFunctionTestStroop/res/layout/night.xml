@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nightCardTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.39"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <RadioGroup
+        android:id="@+id/nightradioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+    <RadioButton
+        android:id="@+id/nightDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/nightNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Net"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/holo_blue_light" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nightNextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/next" />
+
+</LinearLayout>

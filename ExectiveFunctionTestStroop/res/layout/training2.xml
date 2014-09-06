@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/day_back">
+
+    <TextView
+        android:id="@+id/trainingScreen2Head"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center_horizontal"
+        android:lines="@integer/abc_max_action_buttons"
+        android:maxLines="@integer/abc_max_action_buttons"
+        android:padding="@dimen/abc_action_bar_subtitle_bottom_margin"
+        android:text="@string/training"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/trainingScreen2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding"
+        android:text="@string/welcomeString2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/trainingScreen3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center_vertical"
+        android:selectAllOnFocus="false"
+        android:text="@string/tap"
+        android:textStyle="bold" />
+
+</LinearLayout>

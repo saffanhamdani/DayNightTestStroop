@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/day_back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/trainingfailedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/abc_searchview_description_search"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/Failure"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/trainingScreen3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center_vertical"
+        android:selectAllOnFocus="false"
+        android:text="@string/tap"
+        android:textStyle="bold" />
+
+</LinearLayout>

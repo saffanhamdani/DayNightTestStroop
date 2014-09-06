@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exectivefunctiontest.stroop"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+    <uses-permission 
+	  android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+   
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconstroop"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Day1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Night2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Night3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Day4"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Instructions"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Instructions2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Instructions3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Main"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assesment1Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment2Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment3Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment4Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment5Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment6Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment7Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment8Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment9Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment10Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment11Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment12Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment13Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment14Night"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment15Day"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assessment16Night"
+            android:screenOrientation="portrait"/>
+       <activity android:name=".TrainingEnds"
+           android:screenOrientation="portrait"/>
+        <activity android:name=".Conclude"
+            android:screenOrientation="portrait"/>
+    <activity android:name=".AtfDay1"
+            android:screenOrientation="portrait"/>
+    <activity android:name=".AtfDay4"
+            android:screenOrientation="portrait"/>
+     <activity android:name=".AtfNight2"
+            android:screenOrientation="portrait"/>
+     <activity android:name=".AtfNight3"
+            android:screenOrientation="portrait"/>
+     <activity android:name=".TrialFailed"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

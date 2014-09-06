@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Executive Function Test Stroop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="welcome_note"> Welcome to Day and Night Stroop Test.</string>
+    <string name="response">Is the response of Child Correct?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Cancel">Cancel</string>
+    <string name="day">Day</string>
+    <string name="Net">Net</string>
+    <string name="empty">No response field is selected. Continue?</string>
+    <string name="thankYou">Assessment has completed successfully. Please click on appropriate button to export to CSV file or start another assessment.</string>
+    <string name="tap">Tap on text to continue</string>
+    <string name="next">Next</string>
+    <string name="training">Training Phase</string>
+    <string name="export">Export to CSV File</string>
+    <string name="exit">End Test and Exit Application</string>
+    <string name="startagain">Start Another Test</string>
+	<string name="start">Enter</string>
+	<string name="enterDetails">Enter the particulars of child to start.</string>
+	<string name="welcomeString1">The child is tested on its response to each card. To pass training, the child must respond correctly to each card in a trial within the 4 allotted trials.During each training and testing trial the stimulus card remains visible directly in front of the child until the child responds.</string>
+    <string name="welcomeString2">The only response considered correct are “NET (NIGHT)” and “DAY”. All other responses, such as “morning,” “sun,” “suppertime,” or “NET(NIGHT)” to the white-sun card are corrected.</string>		
+    <string name="welcomeString3">As soon as a child responds correctly to 4 training cards in a row, testing may begin without further repetition of the rules. There is never any feedback, correction, or reiteration of the rules after Trials 1 and 2, regardless of the child’s performance.</string>
+    <string name="firstName">First Name</string>
+	<string name="lastName">Last Name</string>
+	<string name="age">Enter Age</string>
+	<string name="faliedExit"> Sorry.the child does not understand the task, and testing is being discontinued. </string>
+	<string name="nightContentDescription">Day</string>
+	<string name="dayContentDescription">Net</string>
+	<string name="StartAssessment">Begin Assessment</string>
+	<string name="Failure">Sorry, the child has not passed training after 4 trials, please begin the test trials with a final explanation of both rules before the presentation of the first test screen. If the child answers either of the first two test trials incorrectly, after having failed training, the child is considered to have not understood the task, and testing will be discontinued.</string>
+	<string name="StartTraining">Please turn over a black card depicting the moon and stars and instruct the child to say “DAY” to that card.Similarly turns over a white card depicting the sun and instruct the child to say “NET” when shown that card.</string>
+	<string name="trainingEnds">Instructions: Training has completed successfully. Please say to the child "now we’re going to play a longer game with the cards. Remember, like before, when I hold up this card (present the black-moon card), I want you to say “DAY”. And when I hold up this card (present the white-sun card), I want you to say “NET". </string>
+    
+
+</resources>
